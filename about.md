@@ -22,6 +22,6 @@ Three things about me:
 - I'm a Bio major with a specialization in bioinformatics
 - I like computer science.
 
-'print "Hello, World!"'
+`print "Hello, World!"`
 
 ---
