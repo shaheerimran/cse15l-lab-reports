@@ -39,3 +39,14 @@ Using scp, we can transfer files from our own computer to a remote server. To do
 `scp [INSERT FILE] [INSERT ACCOUNT]@ieng6.ucsd.edu:~/`
 
 You should then be prompted to enter your password. Enter it and use `ls`, you should then hopefully see your file in the root directory.
+
+![Screenshot #6](LabReport1Screenshots/Screenshot%236.png)
+
+## Setting up an SSH Key
+Even though it might not seem very time consuming at first, it would be a lot
+easier if we could just SSH to the server without a password if we're logging
+in from the same device as we normally do. Fortunately there's a solution in 
+the form of SSH keys. Basically, you generate a public and a private "key" on 
+your computer and scp the public key to the server. Then, when you want to login,
+the public key and private key work together and you can login to the server
+without having to enter in your password.
