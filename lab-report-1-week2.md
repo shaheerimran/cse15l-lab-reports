@@ -52,7 +52,7 @@ the public key and private key work together and you can login to the server
 without having to enter in your password. To do so, enter in the command 
 `ssh-keygen` and you should be prompted to enter a file path to store the keys in. There should also be a path shown in parentheses before the colon, that's the default file path where the keys are stored and you can select that just by pressing the enter key. You should then see a prompt to enter a passkey or to enter in case of no passkey. You should just press enter as we're trying to remove the necessity for any passkey when ssh-ing. After that you'll be asked to enter your passkey again. If you see a bunch of confirmation messages and a huge blob of characters at the end, your operation was successful. ssh to the server and make a new hidden directory (mkdir) ".ssh" (the "." implies hidden). Then go back to your computer and enter in the command `scp /Users/<user>/.ssh/id_rsa.pub cs15lsp22xx@ieng6.ucsd.edu:~/.ssh/authorized_keys` obviously adjusting for the path you stored your ssh keys in and your course-specific account. Also, if your worried that we're scping to a folder we haven't created yet (authorized_keys), don't worry, scp can create new folders as well. Enter your password when prompted and if everything works out, we can now ssh and scp without the need for a password (as seen below). 
 
-![Screenshot#7](Labreport1Screenshots/Screenshot%237.png)
+![Screenshot#7](LabReport1Screenshots/Screenshot%237.png)
 
 ## Making remote access run even smoother
 Here are some tips to make using the terminal on your local machine and the server easier: 
