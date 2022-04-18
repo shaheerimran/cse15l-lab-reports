@@ -49,4 +49,24 @@ in from the same device as we normally do. Fortunately there's a solution in
 the form of SSH keys. Basically, you generate a public and a private "key" on 
 your computer and scp the public key to the server. Then, when you want to login,
 the public key and private key work together and you can login to the server
-without having to enter in your password.
+without having to enter in your password. To do so, enter in the command 
+`ssh-keygen` and you should be prompted to enter a file path to store the keys in. There should also be a path shown in parentheses before the colon, that's the default file path where the keys are stored and you can select that just by pressing the enter key. You should then see a prompt to enter a passkey or to enter in case of no passkey. You should just press enter as we're trying to remove the necessity for any passkey when ssh-ing. After that you'll be asked to enter your passkey again. If you see a bunch of confirmation messages and a huge blob of characters at the end, your operation was successful. ssh to the server and make a new hidden directory (mkdir) ".ssh" (the "." implies hidden). Then go back to your computer and enter in the command `scp /Users/<user>/.ssh/id_rsa.pub cs15lsp22xx@ieng6.ucsd.edu:~/.ssh/authorized_keys` obviously adjusting for the path you stored your ssh keys in and your course-specific account. Also, if your worried that we're scping to a folder we haven't created yet (authorized_keys), don't worry, scp can create new folders as well. Enter your password when prompted and if everything works out, we can now ssh and scp without the need for a password (as seen below). 
+
+![Screenshot#7](Labreport1Screenshots/Screenshot%237.png)
+
+## Making remote access run even smoother
+Here are some tips to make using the terminal on your local machine and the server easier: 
+    - Use the up arrow to automatically type out the previous command entered
+    - Use quote marks after the ssh command to login, run the command, then exit
+    - You can use semicolons between commands to run multiple commands on one line
+
+Let's use these tips to find very smoothly edit a file, copy it to the server,
+and then run it. First, make a runnable Java file on your local machine. 
+Use the up arrows to get the previous scp command you ran on your local machine.
+Edit the command so that your transferring the Java file instead. Then ssh
+to the server and use quotes and semicolons to run the `javac` and `java`
+commands necessary to run our file on the sever.
+![Screenshot#8](LabReport1Screenshots/Screenshot%238.png)
+
+
+And thats it. Thanks so much for reading this humble tutorial.
