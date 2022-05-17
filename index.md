@@ -6,7 +6,7 @@
 
 [Lab Report 2](lab-report-2-week4.md)
 
-[Lab Report 3](lab-report-3-week6.md)
+[Lab Report 3](https://shaheerimran.github.io/cse15l-lab-reports/lab-report-3-week6.html)
 
 ![Image](Tokyo.jpg)
 
