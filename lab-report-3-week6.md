@@ -4,6 +4,7 @@
 ![Screenshot#1](LabReport3Screenshots/Screenshot1.png)
 ![Screenshot#2](LabReport3Screenshots/Screenshot2.png)
 ![Screenshot#3](LabReport3Screenshots/Screenshot3.png)
+
 In this group option, we learned how to set up aliases for ssh host/user combinations with a config file in our .ssh folder. This allows us to ssh/scp quicker than before as we can just write our chosen alias for the username/host combination instead of the whole user@host address.
 
 ## Setup Github Access from ieng6
