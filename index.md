@@ -8,5 +8,7 @@
 
 [Lab Report 3](https://shaheerimran.github.io/cse15l-lab-reports/lab-report-3-week6.html)
 
+[Lab Report 4](https://shaheerimran.github.io/cse15l-lab-reports/lab-report-4-week8.html)
+
 ![Image](Tokyo.jpg)
 
