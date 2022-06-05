@@ -10,5 +10,7 @@
 
 [Lab Report 4](https://shaheerimran.github.io/cse15l-lab-reports/lab-report-4-week8.html)
 
+[Lab Report 5](https://shaheerimran.github.io/cse15l-lab-reports/lab-report-5-week10.html)
+
 ![Image](Tokyo.jpg)
 
